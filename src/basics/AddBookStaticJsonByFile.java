@@ -29,7 +29,7 @@ public class AddBookStaticJsonByFile {
 		
 		JsonPath js = new JsonPath(response.asString());
 		String id = js.get("ID");
-		System.out.println("Book Id is :- "+id);
+		System.out.println("Book Id is  :- "+id);
 		
 				
 	}
